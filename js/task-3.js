@@ -3,11 +3,11 @@ const profile = {
   playTime: 300,
 
   changeUsername(newName) {
-    this.username = newName; // Обновляем свойство username
+    this.username = newName;
   },
 
   updatePlayTime(hours) {
-    this.playTime += hours; // Увеличиваем playTime на указанное количество часов
+    this.playTime += hours;
   },
 
   getInfo() {
